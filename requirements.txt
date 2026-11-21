@@ -1,0 +1,20 @@
+python-dotenv
+nest_asyncio
+jupyter
+ipykernel
+
+#core
+pydantic
+pydantic-ai
+
+#topic 5 wrapping a LangChain tool a Pydantic AI common tool
+langchain-community
+wikipedia
+tavily-python
+
+#topic 6 (bonus) observability. Also used by both capstones now.
+logfire
+
+# capstone 2 FastAPI service wrapping the multi-agent delegation pipeline
+fastapi
+uvicorn [standard]

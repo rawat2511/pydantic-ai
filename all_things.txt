@@ -1,0 +1,11 @@
+shubham@DESKTOP-DEKTP5K:/mnt/c/data/expt/Pydantic AI/code$ curl -LsSf https://astral.sh/uv/install.sh | sh
+
+shubham@DESKTOP-DEKTP5K:/mnt/c/data/expt/Pydantic AI/code$ source ~/.local/bin/env
+uv --version
+
+shubham@DESKTOP-DEKTP5K:/mnt/c/data/expt/Pydantic AI/code$ uv venv pydanticai --python 3.12
+
+shubham@DESKTOP-DEKTP5K:/mnt/c/data/expt/Pydantic AI/code$ source pydanticai/bin/activate
+
+(pydanticai)
+shubham@DESKTOP-DEKTP5K:/mnt/c/data/expt/Pydantic AI/code$ uv pip install -r requirements.txt
